@@ -3,6 +3,7 @@
 }
 body{
     background-color: #EAC926;
+    font-size: 12px;
 }
 .logoMercadoLiebre__img{
     width: 200px;
@@ -34,4 +35,25 @@ ul li a{
 ul{
     list-style-type: none;
     padding: 0;
+}
+.burger-menu{
+    background-color: #1259c3;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 20px;
+    padding: 8px;
+    border-radius: 7px;
+}
+.basadoEnTuUltimaVisita h3, .ofertas h3{
+    font-size: 24px;
+}
+.basadoEnTuUltimaVisita article img, .ofertas article img{
+    width: 300px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos, .descripcion{
+    font-size: 16px;
 }
