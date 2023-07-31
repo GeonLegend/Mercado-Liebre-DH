@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 img{
     max-width: 100%;
@@ -29,17 +30,16 @@ header{
     display: inline-block;
     width: 150px;
 }
-.lupa i{
+.barraDeBusqueda__span-i{
     background-color: #fff;
     border: 1px solid #666;
     padding: 2px;
-    margin-left: 20px;
     text-align: center;
-    width: 15px;
+    width: 20px;
 }
 .compraEn{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 nav{
@@ -58,9 +58,10 @@ ul{
     color: #fff;
     text-align: center;
     margin: auto;
-    width: 20px;
+    width: 35px;
     padding: 8px;
     border-radius: 7px;
+    font-size: 18px;
 }
 main{
     padding: 15px 15px;
@@ -83,12 +84,21 @@ main{
 .basadoEnTuUltimaVisita__article-div, .ofertas__article-div{
     border: 1px solid #ebebeb;
     padding: 15px;
-    display: none;
+    position: relative;
 }
 .basadoEnTuUltimaVisita__article-div i, .ofertas__article-div i{
-    font-size: 15px;
-    color: #39c720;
-    padding-bottom: 15px;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
 }
 .basadoEnTuUltimaVisita img, .ofertas img{
     width: 100%;
@@ -125,17 +135,24 @@ footer section p{
 
 
 
-
+@media (max-width : 360px){
+    .basadoEnTuUltimaVisita__article-div, .ofertas__article-div, nav{
+        display: none;
+    }
+}
 @media (min-width : 361px){
     body{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .basadoEnTuUltimaVisita__article-div, .ofertas__article-div{
-        display: block;
+    .burger-menu{
+        display: none;
     }
 }
 @media (min-width : 769px){
     body{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu{
+        display: none;
     }
 }
