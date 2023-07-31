@@ -57,3 +57,10 @@ ul{
 .descuentos, .descripcion{
     font-size: 16px;
 }
+footer{
+    text-align: center;
+}
+footer section i{
+    color: #1259c3;
+    font-size: 2em;
+}
