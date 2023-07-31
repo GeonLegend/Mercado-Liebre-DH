@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #EAC926;
+}
+.logoMercadoLiebre__img{
+    width: 200px;
+    height: 150px;
+    margin: -20px 0px -30px 40px;
+}
+.barraDeBusqueda__span{
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 2px 15px 2px 2px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.lupa i{
+    background-color: #fff;
+    border: 1px solid #666;
+    padding: 2px;
+    margin-left: 20px;
+}
+.compraEn{
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
