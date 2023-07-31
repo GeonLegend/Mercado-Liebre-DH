@@ -6,7 +6,6 @@
 }
 img{
     max-width: 100%;
-
 }
 body{
     background-color: #ebebeb;
@@ -14,7 +13,6 @@ body{
 }
 header{
     background-color: #EAC926;
-    padding-bottom: 15px;
 }
 .logoMercadoLiebre__img{
     width: 40%;
@@ -63,11 +61,21 @@ ul{
     border-radius: 7px;
     font-size: 18px;
 }
+.banner__img{
+    margin-top: 15px;
+    margin-bottom: -3px;
+    width: 100%;
+}
 main{
     padding: 15px 15px;
     margin: auto;
     text-align: center;
     width: 90%;
+}
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .basadoEnTuUltimaVisita, .ofertas{
     text-align: left;
@@ -139,6 +147,9 @@ footer section p{
     .basadoEnTuUltimaVisita__article-div, .ofertas__article-div, nav{
         display: none;
     }
+    .basadoEnTuUltimaVisita__article, .ofertas__article{
+        width: 100%;
+    }
 }
 @media (min-width : 361px){
     body{
@@ -147,6 +158,9 @@ footer section p{
     .burger-menu{
         display: none;
     }
+    .basadoEnTuUltimaVisita__article, .ofertas__article{
+        width: 38vw;
+    }
 }
 @media (min-width : 769px){
     body{
@@ -154,5 +168,8 @@ footer section p{
     }
     .burger-menu{
         display: none;
+    }
+    .basadoEnTuUltimaVisita__article, .ofertas__article{
+        width: 20vw;
     }
 }
